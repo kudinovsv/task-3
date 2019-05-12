@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание № 3</title>
+    <script defer src="index.js"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 2px solid darkgray;
+            width: 80px;
+            height: 80px;
+        }
+
+        button {
+            margin: 15px 0;
+            padding: 5px 15px;
+        }
+
+        span {
+            display: block;
+        }
+
+        div {
+            display: inline-block;
+            text-align: left;
+            vertical-align: middle;
+            border: 1px solid black;
+            padding: 15px;
+        }
+
+        body {
+            text-align: center;
+            margin: 0;
+            white-space: nowrap;
+        }
+
+        body:before {
+            display: inline-block;
+            height: 100vh;
+            vertical-align: middle;
+            content: ' ';
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table id="table">
+            <tr>
+                <td id="0"></td>
+                <td id="1"></td>
+                <td id="2"></td>
+                <td id="3"></td>
+            </tr>
+            <tr>
+                <td id="4"></td>
+                <td id="5"></td>
+                <td id="6"></td>
+                <td id="7"></td>
+            </tr>
+            <tr>
+                <td id="8"></td>
+                <td id="9"></td>
+                <td id="10"></td>
+                <td id="11"></td>
+            </tr>
+            <tr>
+                <td id="12"></td>
+                <td id="13"></td>
+                <td id="14"></td>
+                <td id="15"></td>
+            </tr>
+        </table>
+        <button id="button">
+            Старт
+        </button>
+        <span id="timer">
+            00:00.000
+        </span>
+    </div>
+</body>
+</html>
